@@ -1,8 +1,17 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import { Grid, Icon, Segment } from 'semantic-ui-react';
+import { removeEntryRedux } from '../actions/entries.actions';
+import {useDispatch} from 'react-redux';
+import {openEditModal} from '../actions/modal.actions';
 
-function EntryLine({description, value, isExpense = false}) {
+
+function EntryLine({ id, 
+  description, 
+  value, 
+  isExpense = false }) {
+  const dispatch = useDispatch();
   return (
+    <Fragment>
     <Segment color={isExpense ? 'red': 'green'}>
     <Grid columns={3} textAlign="right">
       <Grid.Row>
@@ -13,12 +22,15 @@ function EntryLine({description, value, isExpense = false}) {
             {value}
         </Grid.Column>
         <Grid.Column width={3}>
-          <Icon name="edit" bordered/>
-          <Icon name="trash" />
+          <Icon name="edit" 
+          bordered 
+          onClick={() => dispatch(openEditModal(id))}/>
+          <Icon name="trash" onClick={() => dispatch(removeEntryRedux(id))}/>
         </Grid.Column>
       </Grid.Row>
     </Grid>
   </Segment>
+  </Fragment>
   )
 }
 export default EntryLine;
