@@ -44,7 +44,7 @@ const [description, setDescription] = useState(desc);
       resetValues();
   }
 
-  function resetValue(){
+  function resetValues(){
     setDescription('');
     setValue('');
     setIsExpense(true);
