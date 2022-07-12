@@ -1,26 +1,39 @@
 {
     "entries": [{
     "id": 1,
-    "description":"Work Income",
-    "value": 1000.00,
-    "isExpense":false
+    "description":"Work Income"
   },
   {
     "id": 2,
-    "description":"water bill",
-    "value": 20.00,
-    "isExpense":true
+    "description":"water bill"
   },
   {
     "id": 3, 
-    "description":"rent",
-    "value": 3000.00,
-    "isExpense":true
+    "description":"rent"
   },
   {
     "id": 4,
-    "description":"power bill",
-    "value": 50,
-    "isExpense":true
-  }]
+    "description":"power bill"
+  }],
+  "values": [
+{
+  "id": 1,
+  "value": 1000.00,
+  "isExpense":false
+},
+{
+  "id": 2,
+  "value": 20.00,
+  "isExpense":true
+},
+{
+  "id": 3, 
+  "value": 3000.00,
+  "isExpense":true
+},
+{
+  "id": 4,
+  "value": 50,
+  "isExpense":true
+}]
 }
