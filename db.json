@@ -1,39 +1,78 @@
 {
-    "entries": [{
-    "id": 1,
-    "description":"Work Income"
-  },
-  {
-    "id": 2,
-    "description":"water bill"
-  },
-  {
-    "id": 3, 
-    "description":"rent"
-  },
-  {
-    "id": 4,
-    "description":"power bill"
-  }],
+  "entries": [
+    {
+      "id": 1,
+      "description": "werk"
+    },
+    {
+      "id": 2,
+      "description": "powerbill"
+    },
+    {
+      "id": 3,
+      "description": "rent"
+    },
+    {
+      "id": "de4ba987-3bf5-4b9a-a167-3a341be522b3",
+      "description": "shiny"
+    },
+    {
+      "id": "8a28bc95-fec9-46bf-b832-25900e938266",
+      "description": "opee"
+    },
+    {
+      "id": "329ccf81-a9ad-407e-930e-d1166561d14e",
+      "description": "merp"
+    },
+    {
+      "id": "a70c1eee-c3f6-4def-90d1-40a95a5d6289",
+      "description": "jo"
+    },
+    {
+      "id": "80f5e17d-d709-41f4-94df-cc456c8f96dd",
+      "description": "poo"
+    }
+  ],
   "values": [
-{
-  "id": 1,
-  "value": 1000.00,
-  "isExpense":false
-},
-{
-  "id": 2,
-  "value": 20.00,
-  "isExpense":true
-},
-{
-  "id": 3, 
-  "value": 3000.00,
-  "isExpense":true
-},
-{
-  "id": 4,
-  "value": 50,
-  "isExpense":true
-}]
+    {
+      "id": 1,
+      "value": 1000000,
+      "isExpense": false
+    },
+    {
+      "id": 2,
+      "value": 50,
+      "isExpense": true
+    },
+    {
+      "id": 3,
+      "value": 3000,
+      "isExpense": true
+    },
+    {
+      "id": "de4ba987-3bf5-4b9a-a167-3a341be522b3",
+      "isExpense": false,
+      "value": "500"
+    },
+    {
+      "id": "8a28bc95-fec9-46bf-b832-25900e938266",
+      "isExpense": true,
+      "value": "100"
+    },
+    {
+      "id": "329ccf81-a9ad-407e-930e-d1166561d14e",
+      "isExpense": false,
+      "value": "200"
+    },
+    {
+      "id": "a70c1eee-c3f6-4def-90d1-40a95a5d6289",
+      "isExpense": true,
+      "value": "100"
+    },
+    {
+      "id": "80f5e17d-d709-41f4-94df-cc456c8f96dd",
+      "isExpense": true,
+      "value": "100"
+    }
+  ]
 }
